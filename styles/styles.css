@@ -66,6 +66,7 @@ h1, h2, h3, ul, p {
 
 .navigation-list {
     margin-left: 76px;
+    display: flex;
 }
 
 .navigation-list .navigation-list-item + .navigation-list-item {
@@ -126,8 +127,8 @@ h1, h2, h3, ul, p {
 .hero {
     background-color: var(--navy-blue);
     text-align: center;
-    padding-top: 192px;
-    padding-bottom: 192px;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-header {
@@ -148,7 +149,7 @@ h1, h2, h3, ul, p {
     text-align: center;
     border: none;
 
-    font-family: inherit, sans-serif;
+    font-family: inherit;
     background: var(--iris);
     font-weight: 500;
     font-size: 16px;
@@ -302,7 +303,7 @@ h1, h2, h3, ul, p {
     border-radius: 4px;
     padding: 12px 24px;
 
-    font-family: inherit, sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
